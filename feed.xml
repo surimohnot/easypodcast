@@ -1,23 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-    xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-    <title>PodWisdom Demo Podcast</title>
-    <link>https://easypodcastpro.com</link>
-    <language>en-us</language>
-    <itunes:author>EasyPodcast Pro</itunes:author>
-    <description>A demo podcast to showcase the Easy Podcast Pro WordPress plugin.</description>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://your-site-name.netlify.app/cover.jpg" />
-    <item>
-      <title>Welcome to EasyPodcastPro</title>
-      <itunes:author>easypodcastpro</itunes:author>
-      <enclosure url="https://easypodcast.netlify.app/audio/episode01.mp3" length="123456" type="audio/mpeg"/>
-      <guid>1</guid>
-      <pubDate>{datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>
-      <description>This is a short demo episode for showcasing how your podcast looks inside a player. Clean, professional, and podcast-ready.</description>
-      <itunes:duration>00:02:00</itunes:duration>
-    </item>
-  </channel>
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	 xmlns:podcast="https://podcastindex.org/namespace/1.0"
+	>
+		<channel>
+		<title>Easy Podcasting Demo</title>
+		<atom:link href="https://easypodcast.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+		<link>https://easypodcastpro.com/</link>
+		<description>This podcast is a demo series created to showcase the features of our Podcast Player WordPress plugin. Each episode shares timeless insights from a classic public domain book—refined for modern ears. It&#039;s a sample of what great audio storytelling can look like in your own podcast.</description>
+		<lastBuildDate>Wed, 20 Mar 2025 13:00:25 +0000</lastBuildDate>
+		<language>en-US</language>
+		<copyright>&#xA9; 2025 easypodcastpro</copyright>
+		<itunes:subtitle></itunes:subtitle>
+		<itunes:author>easypodcastpro</itunes:author>
+		<itunes:summary>This podcast is a demo series created to showcase the features of our Podcast Player WordPress plugin. Each episode shares timeless insights from a classic public domain book—refined for modern ears. It&#039;s a sample of what great audio storytelling can look like in your own podcast.</itunes:summary>
+		<itunes:owner>
+			<itunes:name>easypodcastpro</itunes:name>
+		</itunes:owner>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:category text="Education">
+			<itunes:category text="Self-Improvement"></itunes:category>
+		</itunes:category>
+			<podcast:locked>yes</podcast:locked>
+		<podcast:guid>d017298c-9243-5dc2-9f8c-5d2eff57afd1</podcast:guid>
+		<generator>https://wordpress.org/?v=6.7.2</generator>
+
+<item>
+	<title>The True Source of Wealth: How Thought Becomes Power</title>
+	<link>https://easypodcast.netlify.app/audio/episode10.mp3</link>
+	<pubDate>Wed, 09 Apr 2025 13:00:19 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode10.mp3</guid>
+	<description><![CDATA[In this sample episode, we uncover Ralph Waldo Emerson’s timeless insight into the real engine of success: the power of thought. In The Conduct of Life, Emerson wrestles with the forces of fate and freedom, arguing that while our lives are shaped by circumstance, true power lies within our ability to choose, think, and act [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we uncover Ralph Waldo Emerson’s timeless insight into the real engine of success: the power of thought. In The Conduct of Life, Emerson wrestles with the forces of fate and freedom, arguing that while our lives are shaped by circ]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we uncover Ralph Waldo Emerson’s timeless insight into the real engine of success: the power of thought. In The Conduct of Life, Emerson wrestles with the forces of fate and freedom, arguing that while our lives are shaped by circumstance, true power lies within our ability to choose, think, and act [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode10.mp3" length="1933295" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we uncover Ralph Waldo Emerson’s timeless insight into the real engine of success: the power of thought. In The Conduct of Life, Emerson wrestles with the forces of fate and freedom, arguing that while our lives are shaped by circumstance, true power lies within our ability to choose, think, and act [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-10.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-10.png</url>
+		<title>The True Source of Wealth: How Thought Becomes Power</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>Common Sense Revisited: What We Lost and Why</title>
+	<link>https://easypodcast.netlify.app/audio/episode09.mp3</link>
+	<pubDate>Wed, 07 Apr 2025 12:58:53 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode10.mp3</guid>
+	<description><![CDATA[In this sample episode, we revisit one of the most radical and influential political texts of all time—Thomas Paine’s Common Sense. Written in the late 18th century, Paine’s fiery pamphlet challenged the legitimacy of monarchy and called for American independence, igniting a revolution in both thought and action. But beyond its historical context, Paine’s reflections [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we revisit one of the most radical and influential political texts of all time—Thomas Paine’s Common Sense. Written in the late 18th century, Paine’s fiery pamphlet challenged the legitimacy of monarchy and called for American ind]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we revisit one of the most radical and influential political texts of all time—Thomas Paine’s Common Sense. Written in the late 18th century, Paine’s fiery pamphlet challenged the legitimacy of monarchy and called for American independence, igniting a revolution in both thought and action. But beyond its historical context, Paine’s reflections [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode09.mp3" length="3612095" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we revisit one of the most radical and influential political texts of all time—Thomas Paine’s Common Sense. Written in the late 18th century, Paine’s fiery pamphlet challenged the legitimacy of monarchy and called for American independence, igniting a revolution in both thought and action. But beyond its historical context, Paine’s reflections [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-9.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-9.png</url>
+		<title>Common Sense Revisited: What We Lost and Why</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>From Cosmic Chaos to Conscious Choice</title>
+	<link>https://easypodcast.netlify.app/audio/episode08.mp3</link>
+	<pubDate>Wed, 05 Apr 2025 12:57:23 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode08.mp3</guid>
+	<description><![CDATA[In this sample episode, we journey into the mind-expanding ideas of T. Troward’s The Edinburgh Lectures on Mental Science, where thought meets the fabric of reality. Troward explores the connection between mind and matter, arguing that intelligence and intention shape the physical world. He challenges conventional views of life and substance, proposing that everything—from the [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we journey into the mind-expanding ideas of T. Troward’s The Edinburgh Lectures on Mental Science, where thought meets the fabric of reality. Troward explores the connection between mind and matter, arguing that intelligence and i]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we journey into the mind-expanding ideas of T. Troward’s The Edinburgh Lectures on Mental Science, where thought meets the fabric of reality. Troward explores the connection between mind and matter, arguing that intelligence and intention shape the physical world. He challenges conventional views of life and substance, proposing that everything—from the [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode08.mp3" length="2722151" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we journey into the mind-expanding ideas of T. Troward’s The Edinburgh Lectures on Mental Science, where thought meets the fabric of reality. Troward explores the connection between mind and matter, arguing that intelligence and intention shape the physical world. He challenges conventional views of life and substance, proposing that everything—from the [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-8.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-8.png</url>
+		<title>From Cosmic Chaos to Conscious Choice</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>The Hidden Cost of Aimlessness and How to Break Free</title>
+	<link>https://easypodcast.netlify.app/audio/episode07.mp3</link>
+	<pubDate>Wed, 03 Apr 2025 12:55:25 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode07.mp3</guid>
+	<description><![CDATA[In this sample episode, we explore the quiet danger of aimlessness—and how purposeful thought can transform your life. Drawing from James Allen’s timeless work As a Man Thinketh, this episode delves into the deep connection between our thoughts, our character, and the lives we create. Allen argues that we are the architects of our destiny, [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we explore the quiet danger of aimlessness—and how purposeful thought can transform your life. Drawing from James Allen’s timeless work As a Man Thinketh, this episode delves into the deep connection between our thoughts, our char]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we explore the quiet danger of aimlessness—and how purposeful thought can transform your life. Drawing from James Allen’s timeless work As a Man Thinketh, this episode delves into the deep connection between our thoughts, our character, and the lives we create. Allen argues that we are the architects of our destiny, [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode07.mp3" length="1206" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we explore the quiet danger of aimlessness—and how purposeful thought can transform your life. Drawing from James Allen’s timeless work As a Man Thinketh, this episode delves into the deep connection between our thoughts, our character, and the lives we create. Allen argues that we are the architects of our destiny, [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-7.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-7.png</url>
+		<title>The Hidden Cost of Aimlessness and How to Break Free</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>Make It As Best As You Can</title>
+	<link>https://easypodcast.netlify.app/audio/episode06.mp3</link>
+	<pubDate>Wed, 01 Apr 2025 12:54:05 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode06.mp3</guid>
+	<description><![CDATA[In this sample episode, we reflect on the empowering idea that success isn&#8217;t about perfection—it&#8217;s about making the most of what you have. Drawing from Orison Swett Marden’s classic How to Succeed; Or, Stepping-Stones to Fame and Fortune, we explore how character, determination, and personal initiative shape the path to achievement. Marden’s practical wisdom, paired [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we reflect on the empowering idea that success isn&#8217;t about perfection—it&#8217;s about making the most of what you have. Drawing from Orison Swett Marden’s classic How to Succeed; Or, Stepping-Stones to Fame and Fortune, we ]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we reflect on the empowering idea that success isn&#8217;t about perfection—it&#8217;s about making the most of what you have. Drawing from Orison Swett Marden’s classic How to Succeed; Or, Stepping-Stones to Fame and Fortune, we explore how character, determination, and personal initiative shape the path to achievement. Marden’s practical wisdom, paired [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode06.mp3" length="2411039" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we reflect on the empowering idea that success isn&#8217;t about perfection—it&#8217;s about making the most of what you have. Drawing from Orison Swett Marden’s classic How to Succeed; Or, Stepping-Stones to Fame and Fortune, we explore how character, determination, and personal initiative shape the path to achievement. Marden’s practical wisdom, paired [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-6.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-6.png</url>
+		<title>Make It As Best As You Can</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>The Power of Singleness: Why Focus Wins</title>
+	<link>https://easypodcast.netlify.app/audio/episode05.mp3</link>
+	<pubDate>Wed, 30 Mar 2025 12:52:39 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode05.mp3</guid>
+	<description><![CDATA[In this sample episode, we examine the underrated superpower of focused effort. Based on insights from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, this episode explores the idea that true success often comes not from doing more, but from committing deeply to a single purpose. [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we examine the underrated superpower of focused effort. Based on insights from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, this episode explores the idea that true success often comes not from]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we examine the underrated superpower of focused effort. Based on insights from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, this episode explores the idea that true success often comes not from doing more, but from committing deeply to a single purpose. [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode05.mp3" length="2110871" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we examine the underrated superpower of focused effort. Based on insights from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, this episode explores the idea that true success often comes not from doing more, but from committing deeply to a single purpose. [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-5.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-5.png</url>
+		<title>The Power of Singleness: Why Focus Wins</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>Talent or Tenacity: What Fuels True Achievement?</title>
+	<link>https://easypodcast.netlify.app/audio/episode04.mp3</link>
+	<pubDate>Wed, 28 Mar 2025 12:51:09 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode04.mp3</guid>
+	<description><![CDATA[In this sample episode, we dive into the age-old question: is success driven more by natural talent or by relentless tenacity? Drawing from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, we explore the author’s powerful argument that lasting achievement stems from character, consistency, and effort—not [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we dive into the age-old question: is success driven more by natural talent or by relentless tenacity? Drawing from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, we explore the author’s powerful]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we dive into the age-old question: is success driven more by natural talent or by relentless tenacity? Drawing from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, we explore the author’s powerful argument that lasting achievement stems from character, consistency, and effort—not [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode04.mp3" length="2119607" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we dive into the age-old question: is success driven more by natural talent or by relentless tenacity? Drawing from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun, we explore the author’s powerful argument that lasting achievement stems from character, consistency, and effort—not [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-4.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-4.png</url>
+		<title>Talent or Tenacity: What Fuels True Achievement?</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>The Power of Habit and the Real Road to Success</title>
+	<link>https://easypodcast.netlify.app/audio/episode03.mp3</link>
+	<pubDate>Wed, 26 Mar 2025 12:47:46 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode03.mp3</guid>
+	<description><![CDATA[In this sample episode, we explore the powerful connection between character, habit, and success, drawn from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun. Written in the late 19th century, this motivational guide offers timeless advice on building a meaningful life through discipline, moral integrity, and [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we explore the powerful connection between character, habit, and success, drawn from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun. Written in the late 19th century, this motivational guide offer]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we explore the powerful connection between character, habit, and success, drawn from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun. Written in the late 19th century, this motivational guide offers timeless advice on building a meaningful life through discipline, moral integrity, and [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode03.mp3" length="2189183" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we explore the powerful connection between character, habit, and success, drawn from How to Get on in the World: A Ladder to Practical Success by Major A. R. Calhoun. Written in the late 19th century, this motivational guide offers timeless advice on building a meaningful life through discipline, moral integrity, and [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-3.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-3.png</url>
+		<title>The Power of Habit and the Real Road to Success</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>Tapping Into Your Hidden Energy Reserves</title>
+	<link>https://easypodcast.netlify.app/audio/episode02.mp3</link>
+	<pubDate>Wed, 24 Mar 2025 12:46:03 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode02.mp3</guid>
+	<description><![CDATA[In this sample episode, we explore how to unlock your untapped mental potential, inspired by Initiative Psychic Energy by Warren Hilton. This early 20th-century self-help guide blends psychology with practical advice to help you access hidden reserves of focus, initiative, and determination. Hilton explains why many people fall short of their goals—not from lack of [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we explore how to unlock your untapped mental potential, inspired by Initiative Psychic Energy by Warren Hilton. This early 20th-century self-help guide blends psychology with practical advice to help you access hidden reserves of]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we explore how to unlock your untapped mental potential, inspired by Initiative Psychic Energy by Warren Hilton. This early 20th-century self-help guide blends psychology with practical advice to help you access hidden reserves of focus, initiative, and determination. Hilton explains why many people fall short of their goals—not from lack of [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode02.mp3" length="1871855" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we explore how to unlock your untapped mental potential, inspired by Initiative Psychic Energy by Warren Hilton. This early 20th-century self-help guide blends psychology with practical advice to help you access hidden reserves of focus, initiative, and determination. Hilton explains why many people fall short of their goals—not from lack of [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-2.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-2.png</url>
+		<title>Tapping Into Your Hidden Energy Reserves</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+
+<item>
+	<title>Seize your opportunity</title>
+	<link>https://easypodcast.netlify.app/audio/episode01.mp3</link>
+	<pubDate>Wed, 22 Mar 2025 12:41:43 +0000</pubDate>
+	<dc:creator><![CDATA[easypodcastpro]]></dc:creator>
+	<guid isPermaLink="false">https://easypodcast.netlify.app/audio/episode01.mp3</guid>
+	<description><![CDATA[In this sample episode, we explore the powerful message of seizing opportunity from Orison Swett Marden’s classic motivational book, &#8220;How to Succeed; Or, Stepping-Stones to Fame and Fortune.&#8221; Written in the late 19th century, Marden’s advice still resonates today—encouraging us to recognize the chances life presents and take bold action toward success. With stories of [&#8230;]]]></description>
+	<itunes:subtitle><![CDATA[In this sample episode, we explore the powerful message of seizing opportunity from Orison Swett Marden’s classic motivational book, &#8220;How to Succeed; Or, Stepping-Stones to Fame and Fortune.&#8221; Written in the late 19th century, Marden’s advice ]]></itunes:subtitle>
+	<content:encoded><![CDATA[In this sample episode, we explore the powerful message of seizing opportunity from Orison Swett Marden’s classic motivational book, &#8220;How to Succeed; Or, Stepping-Stones to Fame and Fortune.&#8221; Written in the late 19th century, Marden’s advice still resonates today—encouraging us to recognize the chances life presents and take bold action toward success. With stories of [&#8230;]]]></content:encoded>
+	<enclosure url="https://easypodcast.netlify.app/audio/episode01.mp3" length="2226551" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[In this sample episode, we explore the powerful message of seizing opportunity from Orison Swett Marden’s classic motivational book, &#8220;How to Succeed; Or, Stepping-Stones to Fame and Fortune.&#8221; Written in the late 19th century, Marden’s advice still resonates today—encouraging us to recognize the chances life presents and take bold action toward success. With stories of [&#8230;]]]></itunes:summary>
+	<itunes:image href="https://easypodcast.netlify.app/images/cover-1.png"></itunes:image>
+	<image>
+		<url>https://easypodcast.netlify.app/images/cover-1.png</url>
+		<title>Seize your opportunity</title>
+	</image>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>yes</itunes:block>
+	<itunes:duration>0:00</itunes:duration>
+	<itunes:author><![CDATA[easypodcastpro]]></itunes:author>
+</item>
+	</channel>
 </rss>
